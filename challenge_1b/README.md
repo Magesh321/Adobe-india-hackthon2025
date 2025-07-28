@@ -4,42 +4,6 @@ AI Analysis Multi-Collection Docker Python
 🎯 Overview
 An advanced persona-driven document intelligence system that processes multiple PDF collections and extracts highly relevant content based on specific user personas and their job requirements. This solution demonstrates sophisticated content analysis, relevance scoring, and intelligent document processing for Adobe India Hackathon 2025 - Challenge 1b.
 
-📁 Project Architecture
-
-🏗️ Directory Structure
-Challenge_1b/
-├── 📄 Dockerfile                           # Container configuration
-├── 🐍 process_collections.py              # Main processing engine
-├── 📋 README.md                           # This documentation
-├── 📁 Collection 1/                       # Travel Planning Documents
-│   ├── 📂 PDFs/                          # Source documents (7 files)
-│   │   ├── South of France - Cities.pdf
-│   │   ├── South of France - Cuisine.pdf
-│   │   ├── South of France - History.pdf
-│   │   ├── South of France - Restaurants and Hotels.pdf
-│   │   ├── South of France - Things to Do.pdf
-│   │   ├── South of France - Tips and Tricks.pdf
-│   │   └── South of France - Traditions and Culture.pdf
-│   ├── 📝 challenge1b_input.json         # Input configuration
-│   └── 📊 challenge1b_output.json        # Generated analysis results
-├── 📁 Collection 2/                       # Adobe Acrobat Learning
-│   ├── 📂 PDFs/                          # Source documents (15 files)
-│   │   ├── Learn Acrobat - Create and Convert_1.pdf
-│   │   ├── Learn Acrobat - Edit_1.pdf
-│   │   ├── Learn Acrobat - Export_1.pdf
-│   │   ├── Learn Acrobat - Fill and Sign.pdf
-│   │   ├── Learn Acrobat - Generative AI_1.pdf
-│   │   └── ... (10 more Acrobat guides)
-│   ├── 📝 challenge1b_input.json         # Input configuration
-│   └── 📊 challenge1b_output.json        # Generated analysis results
-└── 📁 Collection 3/                       # Recipe Collection
-    ├── 📂 PDFs/                          # Source documents (9 files)
-    │   ├── Breakfast Ideas.pdf
-    │   ├── Dinner Ideas - Mains_1.pdf
-    │   ├── Lunch Ideas.pdf
-    │   └── ... (6 more recipe guides)
-    ├── 📝 challenge1b_input.json         # Input configuration
-    └── 📊 challenge1b_output.json        # Generated analysis results
 🎭 Collection Profiles
 🧳 Collection 1: Travel Planning Intelligence
 Attribute	Details
